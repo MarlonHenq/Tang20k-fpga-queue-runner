@@ -1,2 +1,5 @@
 .env
 test*
+.clj-kondo
+.vscode
+.lsp
