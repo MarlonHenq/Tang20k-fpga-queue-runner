@@ -15,3 +15,13 @@ Para rodar o Go API, use:
 ```bash
 go run api.go
 ```
+
+
+Um request para api de exemplo é:
+```bash
+curl -X POST http://localhost:8080/submit   -H "Content-Type: application/json"   -d '{
+    "key": "supersecretkeytosubmittoken",
+    "exercise": "Create a 4-bit counter.",
+    "code": "module counter; endmodule"
+  }'
+```
