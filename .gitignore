@@ -3,3 +3,4 @@ test*
 .clj-kondo
 .vscode
 .lsp
+/tmp
